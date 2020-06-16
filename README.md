@@ -11,7 +11,8 @@ This repo contains the notebooks for deep learning AI crash course on Tensorflow
 * input_shape definition
 * layer object: method and attribute
 * Kernel and bias: kernel can be thought as weights
-* Implement helper function to calculate the number of parameter for various layers.
+* Implement helper function to calculate the number of parameter for various layers
+* Implement training as function
 
 
 
