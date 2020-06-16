@@ -22,10 +22,10 @@ This repo contains the notebooks for deep learning AI crash course on Tensorflow
 4. Now that you've explored the concepts behind going from binary classification to multi class classification, it's time for another Exercise. In this one you'll use the Sign Language dataset from https://www.kaggle.com/datamunge/sign-language-mnist.
 
 ### Learning
-	* Prepare the training and testing image in each directory
-	* Set up the training and validation generator to perform preprocessing: rescale, data augumentation.
-	* flow_from_directory and from slice
-	* Transfer learning
+* Prepare the training and testing image in each directory
+* Set up the training and validation generator to perform preprocessing: rescale, data augumentation.
+* flow_from_directory and from slice
+* Transfer learning
 
 ## Course 3 Natural Language Processing in TensorFlow
 
