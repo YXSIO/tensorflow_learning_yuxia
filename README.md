@@ -7,6 +7,13 @@ This repo contains the notebooks for deep learning AI crash course on Tensorflow
 3. Improve MNIST with convolutions.
 4. Image classifier for complex images.Create a classifier for a set of happy or sad images with callback to cancel training once accuracy is greater than 0.99.
 
+### Learning
+* input_shape definition
+* layer object: method and attribute
+* Kernel and bias: kernel can be thought as weights
+* Implement helper function to calculate the number of parameter for various layers.
+
+
 
 ## Course 2 Convolutional Neural Networks in TensorFlow
 
