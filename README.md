@@ -1,4 +1,4 @@
-# tensorflow_learning_yuxia
+# Tensorflow_Learning_Yuxia
 This repo contains the notebooks for deep learning AI crash course on Tensorflow.
 
 ## Course 1 Introduction to TensorFlow for Artificial Intelligence, Machine Learning, and Deep Learning
@@ -30,10 +30,12 @@ This repo contains the notebooks for deep learning AI crash course on Tensorflow
 * Plot_model to visualize the model: Inception network visualization
 
 /*To do:*/
-loss='binary_crossentropy': Check different loss definition
-ImageDataGenerator
+loss='binary_crossentropy': Check different loss definition \n
+ImageDataGenerator \n
 Batch normalization layer parameter 
+
 Tensor board
+
 Customized the layer object
 
 
