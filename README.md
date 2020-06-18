@@ -30,8 +30,10 @@ This repo contains the notebooks for deep learning AI crash course on Tensorflow
 * Plot_model to visualize the model: Inception network visualization
 
 /*To do:*/
-loss='binary_crossentropy': Check different loss definition \n
-ImageDataGenerator \n
+loss='binary_crossentropy': Check different loss definition
+
+ImageDataGenerator
+
 Batch normalization layer parameter 
 
 Tensor board
