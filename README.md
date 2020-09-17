@@ -31,17 +31,20 @@ This repo contains the notebooks for deep learning AI crash course on Tensorflow
 
 /*To do:*/
 loss='binary_crossentropy': Check different loss definition
-
-ImageDataGenerator
-
 Batch normalization layer parameter 
-
-Tensor board
-
 Customized the layer object
 
 
 ## Course 3 Natural Language Processing in TensorFlow
+1. Turning the sentence into sequences via TFIDF, bag of words, word counts. Learn tokenizer(word index) and pad_sequences APIs in TensorFlow to build a sarcasm classifer. 
+2. Use word embedding to build a neural netowrks with the usage of semantics of words. The embedding is trained on the fly with the model training. Words with similar embedding and semantics tends to cluster together.
+3. Use the embedding from transfer learning: GloVe. Fine tune the network with a two stage process: classifer header and unforze a few top layers. 
+4. Sentiment can also be determined by the sequence in which words appear. LSTM, GRU, Conv1D combined with embedding to model the sequence. 
+5. Language modeling: word based and character based text generator. Data preparation for both cases. The benefit for character based is that the number of output class is small(e.g.: 63) instead of the size of the vocabulary. 
+
+### Learning
+* LSTM(unit=64, return_sequence=True): 64 is the dimesion of the final output. It do not need to know the internal number of steps. 
+* 
 
 
 ## Course 4 Sequences, Time Series and Prediction
