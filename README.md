@@ -46,3 +46,4 @@ Customized the layer object
 * LSTM(unit=64, return_sequence=True): 64 is the dimesion of the final output. It do not need to know the internal number of steps. 
 
 ## Course 4 Sequences, Time Series and Prediction
+1. NN in time series: anomaly detection, imputation and forecasting. Statistical forecasting: Moving average do not model trend. Therefore, use differencing to remove the trend before applying MA. 
