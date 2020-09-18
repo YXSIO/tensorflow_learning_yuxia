@@ -48,7 +48,11 @@ Customized the layer object
 ## Course 4 Sequences, Time Series and Prediction
 1. NN in time series: anomaly detection, imputation and forecasting. Statistical forecasting: Moving average do not model trend. Therefore, use differencing to remove the trend before applying MA. 
 2. Window, flatten, shuffle, batch and pre-fetch the data to train a linear model and deep learning model to predict the next value. 
-3. Apply RNNs to sequence data, since the recently data points might have more influence to the current value.
+3. Apply RNNs and LSTM to sequence data, since the recently data points might have more influence to the current value. Multi layer bi-directional LSTM could make the time series with significant complex curvature. 
+4, Putting everything together: real data, Conv1D, LSTM, DNN with the output. Tunning the parameters to find the best model in terms of accuracy and loss. 
 
 ### Learning
 * Use the learning rate controller callback to find how loss changes with the increase of learning rate over a small number of epoches, then choose the lr before the curve becomes unstable.
+* Lambda layers can be used to modify the input dimension or change the scale of the output in the model defination process. 
+* For real data, it is important to choose the window size. E.g. 11(132 months) years is the period for sun black spot. Then try, 30, 40, 50 months as window size. 
+* Evalute the model performance based on a single data point in the validation set. 
